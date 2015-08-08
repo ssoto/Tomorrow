@@ -17,6 +17,12 @@ git clone git@github.com:madisonmay/Tomorrow.git
 sudo python setup.py install
 ```
 
+you can also run tests inside cloned git repo root folder to ensure `Tomorrow` is nice installed
+```
+python -m unittest discover
+```
+
+
 Usage
 -----
 The tomorrow library enables you to utilize the benefits of multi-threading with minimal concern about the implementation details.
